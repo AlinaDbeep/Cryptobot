@@ -1,3 +1,5 @@
+heroku buildpacks:set heroku/python
+
 import requests
 from datetime import datetime
 import telebot
