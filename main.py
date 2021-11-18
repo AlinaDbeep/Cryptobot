@@ -1,7 +1,3 @@
-pip install pipreqs
-
-pipreqs /Cryptobot
-
 import requests
 from datetime import datetime
 import telebot
