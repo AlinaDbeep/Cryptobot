@@ -3,7 +3,7 @@ from datetime import datetime
 import telebot
 from auth_data import token
 
-token = "2111549416:AAHl847LbsQXZhQBx9InJ68O6tCWLIdn5RA"
+token = "PUTTOKENHERE"
 
 def get_data():
     req = requests.get("https://yobit.net/api/3/ticker/btc_usd")
